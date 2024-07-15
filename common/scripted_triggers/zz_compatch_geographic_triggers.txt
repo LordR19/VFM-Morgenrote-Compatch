@@ -1,0 +1,57 @@
+﻿#################################
+# GEOGRAPHIC SCRIPTED TRIGGERS  #
+#################################
+
+#by Marco Dandolo & Lord R
+
+############################
+
+###Other State Triggers###
+
+#Badajoz
+mr_country_owns_badajoz_trigger = {
+	has_state_in_state_region = STATE_EXTREMADURA
+}
+mr_state_in_badajoz_trigger = {
+	state_region = s:STATE_EXTREMADURA
+}
+mr_this_state_badajoz_trigger = {
+	this = s:STATE_EXTREMADURA
+}
+
+#Castile
+mr_country_owns_castile_trigger = {
+	has_state_in_state_region = STATE_CASTILLA_LA_VIEJA
+}
+mr_state_in_castile_trigger = {
+	state_region = s:STATE_CASTILLA_LA_VIEJA
+}
+mr_this_state_castile_trigger = {
+	this = s:STATE_CASTILLA_LA_VIEJA
+}
+
+#Toledo
+mr_country_owns_toledo_trigger = {
+	has_state_in_state_region = STATE_CASTILLA_LA_NUEVA
+}
+mr_state_in_toledo_trigger = {
+	state_region = s:STATE_CASTILLA_LA_NUEVA
+}
+
+#Maine-Anjou
+mr_country_owns_maine_anjou_trigger = {
+	has_state_in_state_region = STATE_LOIRE
+}
+mr_state_in_maine_anjou_trigger = {
+	state_region = s:STATE_LOIRE
+}
+
+#Oran
+mr_country_owns_oran_trigger = {
+	has_state_in_state_region = STATE_TLEMCEN
+}
+mr_state_in_oran_trigger = {
+	state_region = s:STATE_TLEMCEN
+}
+
+
